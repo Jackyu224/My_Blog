@@ -1,15 +1,14 @@
-title: JKxz
-author: XUJINKAI
-description: 努力写点儿有用的❤️
+title: My Blog
+author: Yu
+description: 以自律为路-以钻研为灯-成就自我
 footer_desc: >-
   <br>
-  © 2016-2023 XUJINKAI.NET <br>
-  Powered by <a href="https://github.com/XUJINKAI/blog">XUJINKAI blog</a>
+  © 2024-- **** <br>
 
-url: https://xujinkai.net
+url: 
 baseurl: 
-disqus: xujinkai
-ga4: G-4Q0MVTQ7HL
+disqus: 
+ga4: 
 
 defaults:
   - scope:
@@ -41,7 +40,7 @@ plugins:
 feed:
   posts_limit: 20
   excerpt_only: true
-  excerpt_tip: "博文经常更新，请移步主站查看🫡"
+  excerpt_tip: "记录自己学习的过程"
 
 exclude:
   - .sass-cache/

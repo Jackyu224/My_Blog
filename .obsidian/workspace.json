@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "2dd5b3e09145d9b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "97cffad7a409e2e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "301118fd8147350c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "62479e23e4719993",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c2a8b4fb0e354fd4",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d3e0ab2258441d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e7c7435eb7a4267",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "283b4e7a254aa7a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "afca5819aa67e5e4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "df1886e505db1695",
+    "type": "split",
+    "children": [
+      {
+        "id": "1038fe37808cd3ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "244e89f58afdfa31",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5c30533f0f96c8d9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1098bcea6509c502",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0e9bde7259f50f51",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "62479e23e4719993",
+  "lastOpenFiles": [
+    "blog/pages/about.md",
+    "blog/pages/index.md",
+    "blog/pages/tweet.md",
+    "2024-09-13-第一篇Jekyll文章.md",
+    "blog/_posts/2023-08-04-如何使用Newtonsoft.Json自定义序列化派生类.md",
+    "blog/_posts/2016-03-24-自动创建post文件的脚本.md",
+    "blog/_posts/2016-03-24-让navbar对移动端更友好.md",
+    "blog/_posts/2016-03-23-从购买域名到建立博客.md",
+    "blog/_posts/2016-03-22-开始.md",
+    "blog/_posts/2000-01-01-Markdown渲染测试页面.md",
+    "blog/_site/posts/markdown-render-test.html",
+    "index.md",
+    "my_blog/index.md",
+    "my_blog/_site/script/validate-html",
+    "my_blog/_site/script/release",
+    "my_blog/_site/script/cibuild",
+    "my_blog/_site/script/bootstrap",
+    "my_blog/_site/script",
+    "my_blog/_site/jekyll-theme-minimal.gemspec",
+    "my_blog/_site/docs/SUPPORT.md",
+    "my_blog/_site/docs/CONTRIBUTING.md",
+    "my_blog/_site/docs/CODE_OF_CONDUCT.md",
+    "my_blog/_site/docs",
+    "my_blog/_site/assets/js/scale.fix.js",
+    "my_blog/_site/assets/js",
+    "my_blog/_site/assets/img/logo.png",
+    "my_blog/_site/assets/fonts/Noto-Sans-regular/Noto-Sans-regular.svg",
+    "my_blog/_site/assets/fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg",
+    "my_blog/_site/assets/fonts/Noto-Sans-italic/Noto-Sans-italic.svg",
+    "my_blog/_site/assets/fonts/Noto-Sans-700/Noto-Sans-700.svg",
+    "my_blog/docs/SUPPORT.md",
+    "my_blog/docs/CONTRIBUTING.md",
+    "my_blog/docs/CODE_OF_CONDUCT.md",
+    "my_blog/assets/fonts/Noto-Sans-regular/Noto-Sans-regular.svg",
+    "my_blog/assets/fonts/Noto-Sans-italic/Noto-Sans-italic.svg",
+    "my_blog/assets/fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg",
+    "my_blog/assets/fonts/Noto-Sans-700/Noto-Sans-700.svg",
+    "my_blog/assets/img/logo.png",
+    "my_blog/another-page.md",
+    "my_blog/README.md"
+  ]
+}
