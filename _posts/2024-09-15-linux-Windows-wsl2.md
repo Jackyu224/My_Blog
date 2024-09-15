@@ -12,7 +12,7 @@ tags:
 1. 打开「Windows 功能」
 2. 勾选「适用于 Linux 的 Windows 子系统」和「虚拟机平台」
 
-![[Pasted image 20240915044138.png]]
+![](_posts/img/202409150441.png)
 
 #### 使用 PowerShell 管理员模式
 
