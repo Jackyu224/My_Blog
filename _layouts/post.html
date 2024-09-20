@@ -33,7 +33,7 @@ layout: base
     {{ content | toc_only }}
   </div>
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content | inject_anchors }}
+   <!-- 移除此处的 {{ content | inject_anchors }}，防止重复 -->
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
