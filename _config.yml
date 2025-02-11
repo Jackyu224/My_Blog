@@ -1,10 +1,10 @@
-name: 
-author: 
-url: 
+name: Return Book
+author: Return
+url: https://224427.xyz
 baseurl: 
-resume_site: 
-description: 
-github_username: 
+resume_site: https://224427.xyz
+description: 以自律为路-以钻研为灯-成就自我
+github_username: yu
 github: 
 plugins: [jekyll-paginate]
 permalink: /:year-:month-:day-:title
@@ -15,8 +15,8 @@ highlighter: rouge
 markdown: kramdown
 comments :
   gitalk :
-    clientID : 
-    clientSecret : 
-    repo : 
-    owner : 
-    admin : 
+    clientID : yu
+    clientSecret : yu
+    repo : 224427.xyz
+    owner : Return
+    admin : Return
