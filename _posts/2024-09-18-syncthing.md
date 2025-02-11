@@ -2,7 +2,7 @@
 layout: post
 title: Syncthing
 date: 2024-09-18
-categories: blog
+category: blog
 tags:
   - sync
   - pixel

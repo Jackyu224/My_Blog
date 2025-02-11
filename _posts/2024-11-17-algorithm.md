@@ -2,7 +2,7 @@
 layout: post
 title: algorithm
 date: 2024-11-17
-categories: blog
+category: blog
 tags:
   - 学习
   - 路线图

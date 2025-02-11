@@ -2,10 +2,10 @@
 layout: post
 title: Linux-入门
 date: 2024-09-15
-categories: blog
-tags:
+category:
   - Linux
   - WSL
+thumbnail: /style/image/qw.jpg
 ---
 * content
 {:toc}
