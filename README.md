@@ -1,84 +1,92 @@
-<!-- markdownlint-disable-next-line -->
-<div align="center">
+# Theme pinghsu-jekyll
 
-  <!-- markdownlint-disable-next-line -->
-  # Chirpy Jekyll Theme
+a jekyll theme which is based on a typecho theme pinghsu
 
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
+## Preview
 
-  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
-  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
-  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
+[Lightfish Blog](http://lightfish.cn)
 
-  [**Live Demo** →][demo]
+![Screenshot](https://raw.githubusercontent.com/lightfish-zhang/pinghsu-jekyll/master/preview.png)
 
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
+![Screenshot](https://raw.githubusercontent.com/lightfish-zhang/pinghsu-jekyll/master/preview2.png)
 
-</div>
+![Screenshot](https://raw.githubusercontent.com/lightfish-zhang/pinghsu-jekyll/master/preview3.png)
 
-## Features
+## How to start
 
-- Dark Theme
-- Localized UI language
-- Pinned Posts on Home Page
-- Hierarchical Categories
-- Trending Tags
-- Table of Contents
-- Last Modified Date
-- Syntax Highlighting
-- Mathematical Expressions
-- Mermaid Diagrams & Flowcharts
-- Dark Mode Images
-- Embed Media
-- Comment Systems
-- Built-in Search
-- Atom Feeds
-- PWA
-- Web Analytics
-- SEO & Performance Optimization
+- fill the file `_config.yml`
 
-## Documentation
+example
 
-To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
+```yaml
+name: A Blog
+author: Lightfish Zhang
+url: https://lightfish-zhang.github.io
+resume_site: https://lightfish-zhang.github.io
+baseurl: 
+description: you website desc
+github_username: lightfish-zhang
+github: https://github.com/lightfish-zhang
+plugins: [jekyll-paginate]
+permalink: /:year-:month-:day-:title
+paginate: 12
+paginate_path: "/page/:num/"
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+highlighter: rouge
+markdown: kramdown
+comments :
+  gitalk :
+    clientID : xxx
+    clientSecret : xxx
+    repo : lightfish-zhang.github.io
+    owner : lightfish-zhang
+    admin : lightfish-zhang
 
-## Contributing
+```
 
-Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
-to learn, inspire, and create. Any contributions you make are greatly appreciated.
-For details, see the "[Contributing Guidelines][contribute-guide]".
+- add your post in path `./_post`, format : 
 
-## Credits
+```md
+---
+layout: post
+title: A Example Post
+date:   1970-01-01 00:00:00 +0800
+category: tutorial
+thumbnail: /style/image/thumbnail.jpg
+icon: book
+---
 
-### Contributors
 
-Thanks to [all the contributors][contributors] involved in the development of the project!
+* content
+{:toc}
 
-[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
-<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
+## sub title
 
-### Third-Party Assets
+page...
 
-This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
+## about thumbnail
 
-The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
+add the thumbnail url
 
-## License
+## about icon
 
-This project is published under [MIT License][license].
+such as book, code, web, chat, note, game, link, design, image
+```
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
-[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
-[jekyllrb]: https://jekyllrb.com/
-[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[vscode]: https://code.visualstudio.com/
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+some config about gitalk, please reference to [gitalk](https://github.com/gitalk/gitalk)
+
+run `bundle install` and `jekyll server` to preview site on you computer, more question about jekyll, reference to [jekyll](http://jekyllrb.com)
+
+
+
+## Developer
+
+- [chakhsu](https://github.com/chakhsu)
+- [lightfish-zhang](https://github.com/lightfish-zhang)
+
+## Thanks
+
+- [jekyll](http://jekyllrb.com) git page engine
+- [pinghsu](https://github.com/chakhsu/pinghsu), a typecho theme, it's a great design.
+- [gitalk](https://github.com/gitalk/gitalk) git page comment engine, it depends on github issue.
+- [smoothscroll](https://www.smoothscroll.net/mac/) SmoothScroll will give your mouse wheel (Finder, Safari, Chrome, etc.) buttery smooth scrolling
