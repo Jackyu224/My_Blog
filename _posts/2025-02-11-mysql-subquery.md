@@ -3,7 +3,7 @@ layout: post
 title: "MySQL 子查询"
 date: 2025-02-11
 categories: mysql
-thumbnail: /style/image/thumbnail.png
+thumbnail: /style/image/wzy.jpg
 icon: note
 ---
 
