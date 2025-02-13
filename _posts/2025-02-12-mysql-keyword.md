@@ -90,7 +90,72 @@ ORDER BY sum(quantity) DESC;
 
 ### JOIN 
 
+如果表中有至少一个匹配，则返回行
 
+#### INNER JOIN（内连接）INNER JOIN 与 JOIN 是相同的
+
+```sql
+SELECT column_name(s)
+FROM table_name1
+INNER JOIN table_name2
+ON table_name1.column_name=table_name2.column_name
+
+SELECT Persons.LastName, Persons.FirstName, Orders.OrderNo
+FROM Persons
+
+INNER JOIN Orders ON Persons.Id_P = Orders.Id_P
+
+ORDER BY Persons.LastName
+```
+
+
+
+#### LEFT JOIN: 即使右表中没有匹配，也从左表返回所有的行
+
+LEFT JOIN 关键字会从左表 (table_name1) 那里返回所有的行，即使在右表 (table_name2) 中没有匹配的行。
+
+```sql
+SELECT column_name(s)
+FROM table_name1
+LEFT JOIN table_name2
+ON table_name1.column_name=table_name2.column_name
+```
+
+
+
+
+
+#### RIGHT JOIN: 即使左表中没有匹配，也从右表返回所有的行
+
+RIGHT JOIN 关键字会右表 (table_name2) 那里返回所有的行，即使在左表 (table_name1) 中没有匹配的行。
+
+```sql
+SELECT column_name(s)
+FROM table_name1
+RIGHT JOIN table_name2
+ON table_name1.column_name=table_name2.column_name
+```
+
+
+
+#### FULL JOIN: 只要其中一个表中存在匹配，就返回行
+
+```sql
+SELECT column_name(s)
+FROM table_name1
+FULL JOIN table_name2
+ON table_name1.column_name=table_name2.column_name
+```
+
+
+
+### WITH ROLLUP
+
+ 在分组数据后 **额外增加一行**，显示所有的 聚合函数 总数和
+
+
+
+### CUBE()
 
 
 
